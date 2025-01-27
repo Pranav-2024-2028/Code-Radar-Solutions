@@ -8,13 +8,13 @@ int main() {
     scanf("%d",&a);
     scanf("%d",&b);
 
-    if (op =="+"){
+    if (op =='+'){
         printf(a+b);
     }
-    else if(op =="-"){
+    else if(op =='-'){
         printf(a-b);
     }
-    else if(op == "*"){
+    else if(op == '*'){
         printf(a*b);
     }
     else{
