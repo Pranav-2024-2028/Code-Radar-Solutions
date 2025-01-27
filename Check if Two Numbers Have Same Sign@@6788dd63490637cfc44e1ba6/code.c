@@ -8,7 +8,7 @@ int main() {
         printf("Same Sign");
     }
     else{
-        printf("Differenr Sign");
+        printf("Different Sign");
     }
     
     return 0;
