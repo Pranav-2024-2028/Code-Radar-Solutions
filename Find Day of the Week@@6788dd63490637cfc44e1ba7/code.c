@@ -24,16 +24,8 @@ int main() {
 
         printf("Saturday");
     }
-    else if (a==7){
-
-
-
-
-
-
-
+    else{
         printf("Sunday");
     }
-   
     return 0;
 }
