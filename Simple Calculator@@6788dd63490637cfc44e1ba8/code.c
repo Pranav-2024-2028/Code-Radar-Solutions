@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    char op ;
+    
     int a ;
     int b;
+    char op;
     scanf("%d%d%op",&a,&b,&c);
   
 
