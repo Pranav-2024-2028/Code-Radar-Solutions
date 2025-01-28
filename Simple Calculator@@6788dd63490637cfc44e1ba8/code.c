@@ -5,7 +5,7 @@ int main() {
     int a ;
     int b;
     char op;
-    scanf("%d%d%op",&a,&b,&c);
+    scanf("%d%d%c",&a,&b,&op);
   
 
     if (op =='+'){
