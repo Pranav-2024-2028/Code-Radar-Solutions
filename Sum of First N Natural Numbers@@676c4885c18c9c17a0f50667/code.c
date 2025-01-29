@@ -7,8 +7,7 @@ char* welcome() {
 int main() {
     int sum = 0;
     int N ;
-    int i =1;
-    scanf("%d",&n);
+    scanf("%d",&N);
 
     for (i=1; i<=N; i++){
         sum = sum+i;
