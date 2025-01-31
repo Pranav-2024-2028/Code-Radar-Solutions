@@ -15,8 +15,8 @@ int main() {
     else if(ch == '*'){
         printf("%d",a*b);
     }
-    else if (ch == '/'){
-        printf("%d",a/b);
+    else if (ch == '%'){
+        printf("%d",a%b);
     }
     else{
         printf("error");
