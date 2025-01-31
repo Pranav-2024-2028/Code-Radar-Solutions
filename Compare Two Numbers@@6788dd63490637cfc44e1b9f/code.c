@@ -13,6 +13,9 @@ int main() {
     else if(a==b){
         printf("Equal");
     }
+    else{
+        printf("Second");
+    }
     
     return 0;
 }
