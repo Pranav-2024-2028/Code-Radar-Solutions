@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a ;
     int b ; 
-    int c = a&&b;
+    int c = a&b;
     
     printf("%d",c);
 
