@@ -10,7 +10,7 @@ int main() {
     int b;
     scanf("%d%d",&a,&b);
 
-    if (a>b && a==b){
+    if (a>=b){
          printf("True");
     }
     else{
