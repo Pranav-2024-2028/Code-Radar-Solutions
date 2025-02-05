@@ -1,17 +1,11 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    char n;
-    int age;
-    char hobby;
-    scanf("%s%d%s",&n , &age , &hobby);
+    char a[50],c[50];
+    int b;
+    scanf("%s %d %s", &a ,&b ,&c);
 
-    printf("%s Name:",n);
-    printf("%d Age:",age);
-    printf("%s Painting:",hobby);
+    printf("Name: %s\n",a);
+    printf("Age: %d\n",b);
+    printf("Hobby: %s\n",c);
     return 0;
 }
