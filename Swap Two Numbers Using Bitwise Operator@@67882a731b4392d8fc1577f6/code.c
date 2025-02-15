@@ -10,8 +10,8 @@ int main(){
     b = a^b;
     a = a^b;
 
-    printf("%d",a);
-    printf("%d",b);
+    printf("%d\n",a);
+    printf("%d\n",b);
     return 0;
 
 }
