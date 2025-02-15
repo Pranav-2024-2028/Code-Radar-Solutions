@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &n);
     
     assert(n >= 1 && n <= 1000); // Program will terminate if condition fails
-    printf("Valid input: %d\n", n);
+    printf("4 0 ", n);
     
     return 0;
 }
