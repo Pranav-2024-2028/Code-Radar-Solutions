@@ -2,13 +2,12 @@
 #include<stdio.h>
 int main(){
 
-    int a ;
-    int b ; 
+    int a ; 
     int c;
 
     scanf("%d",&a);
     scabf("%d",&b);
 
-    c = a~b;
+    c = ~a;
     printf("%d",c);
 }
