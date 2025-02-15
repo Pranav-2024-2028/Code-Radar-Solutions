@@ -8,7 +8,7 @@ int main(){
 
     a= a^b;
     b = a^b;
-    c = a^b;
+    a = a^b;
 
     printf("%d",a);
     printf("%d",b);
