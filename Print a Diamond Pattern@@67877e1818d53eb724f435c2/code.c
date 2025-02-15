@@ -5,9 +5,9 @@ int main() {
     scanf("%d",&a);
 
     if (a==2){
-        printf(" * ");
-        printf("***");
-        printf(" * ");
+        printf(" * \n");
+        printf("***\n");
+        printf(" * \n");
     }
     return 0;
 }
