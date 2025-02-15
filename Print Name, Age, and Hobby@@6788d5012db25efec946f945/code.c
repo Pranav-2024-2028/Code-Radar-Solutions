@@ -2,7 +2,7 @@
 int main() {
     char a[50];
     int b;
-    char b[50];
+    char c[50];
     scanf("%s%d%s",&a,&b,&c);
 
     printf("Name: %s\n",a);
