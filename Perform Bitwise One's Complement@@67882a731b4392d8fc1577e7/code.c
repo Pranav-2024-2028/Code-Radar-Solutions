@@ -6,7 +6,6 @@ int main(){
     int c;
 
     scanf("%d",&a);
-    scabf("%d",&b);
 
     c = ~a;
     printf("%d",c);
