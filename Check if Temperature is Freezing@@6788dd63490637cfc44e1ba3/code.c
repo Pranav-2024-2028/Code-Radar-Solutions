@@ -3,11 +3,11 @@
 int main() {
     int temp;
     scanf("%d",&temp);
-    if (temp<0){
-        printf(" Freezing");
+    if (temp>0){
+        printf("Above  Freezing");
     }
     else{
-        printf("Above Freezing");
+        printf(" Freezing");
     }
    
     return 0;
