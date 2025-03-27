@@ -14,21 +14,17 @@ int main(){
     int min = arr[0];
 
     for(int i=0; i<n; i++){
-        if(max>arr[0]){
-            max = arr[i];
-        }
-    }
-    printf("%d ",max);
-
-    for(int i=0; i<n; i++){
-        if(min<arr[0]){
+        if(min>arr[0]){
             min = arr[i];
         }
     }
-    printf("%d",min);
+    printf("%d ",min);
 
-    
-
-
+    for(int i=0; i<n; i++){
+        if(max<arr[0]){
+            max = arr[i];
+        }
+    }
+    printf("%d",max);
     return 0;
 }
