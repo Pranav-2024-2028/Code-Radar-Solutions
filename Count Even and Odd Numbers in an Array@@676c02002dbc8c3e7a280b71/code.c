@@ -18,7 +18,7 @@ int main(){
             count1++;
         }
     }
-    printf("%d",count);
+    printf("%d ",count);
     printf("%d",count1);
 
     return 0;
