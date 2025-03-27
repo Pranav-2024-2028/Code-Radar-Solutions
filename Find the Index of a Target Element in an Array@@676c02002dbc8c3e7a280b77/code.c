@@ -11,7 +11,7 @@ int main(){
     int t;
     scanf("%d",&t);
 
-    for(int i=1; i<n; i++){
+    for(int i=0; i<n; i++){
         if(t == arr[i]){
             printf("%d",arr[i]);
         }
