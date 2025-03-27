@@ -1,11 +1,25 @@
-#include <assert.h>
+#include<stdio.h>
+int main(){
 
-int main() {
-    int n;
-    scanf("%d", &n);
-    
-    assert(n >= 1 && n <= 1000); // Program will terminate if condition fails
-    printf("4 0 ", n);
-    
+    int n; 
+    int count =0; 
+    int count1 = 0;
+    scanf("%d",&n);
+
+    int arr[n];
+    for(int i=0; i<n; i++){
+        scanf("%d",&arr[i]);
+    }
+    for(int i=0; i<n; i++){
+        if(arr[i]%2==0){
+            count++;
+        }
+        else{
+            count1++;
+        }
+    }
+    printf("%d",count);
+    printf("%d",count1);
+
     return 0;
 }
