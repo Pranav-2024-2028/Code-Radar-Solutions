@@ -20,7 +20,7 @@ int main(){
             max2 = arr[i];
         }
     }
-]
+
     printf("%d",max2);
 
 
