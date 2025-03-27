@@ -20,7 +20,7 @@ int main(){
             max2 = arr[i];
         }
     }
-    if (arr[]==n)
+]
     printf("%d",max2);
 
 
