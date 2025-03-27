@@ -17,11 +17,10 @@ int main(){
     }
     for(int i=0; i<n; i++){
         if (max2<arr[i] && max>arr[i]){
-            max2 = arr[i];
-            printf("%d",max2);
+            max2 = arr[i]; 
         }
     }
-    // printf("%d",max2);
+    printf("%d",max2);
     
     
 
