@@ -15,6 +15,7 @@ int main(){
         if(t == arr[i]){
             printf("%d",i);
         }
+    }
     return 0;
-}
+
 }
