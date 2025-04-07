@@ -11,12 +11,12 @@ int main() {
 
       // Last element of the array
 
-    for(int i = 0; i < n; i++) {  // Start from 1 to avoid division by 0
-        if (n % i == 0) {
-            printf("%d\n", i);
-            return 0;
+    for(int i = 0; i < n; i++) {   
+        if(arr[n]%i==0){
+            count ++;
         }
     }
+    printf("%d",count);
 
     return 0;
 }
