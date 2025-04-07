@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 
-`   int n;
+   int n;
     int sum =0;
     scanf("%d",&n);
     int arr[n];
@@ -13,7 +13,7 @@ int main(){
     int sn = (n*(n+1)/2);
     
     for(int i =0; i<n; i++){
-        sum = sum+srr[i];
+        sum = sum+arr[i];
     }
     printf("%d",sum-sn);
 
