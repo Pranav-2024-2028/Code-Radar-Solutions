@@ -18,8 +18,11 @@ int main(){
             }
         }
     }
-     for(int i=0; i<n; i++){
-        printf("%d",arr[i]);
+    int tmp = arr[i];
+    for(int i =0;i<n;i++){
+        if (arr[i]==tmp){
+            printf("Sorted");
+        }
     }
 
 }
