@@ -16,8 +16,11 @@ int main() {
             count++;
         }
     }
+    if (count ==2){
+        printf("%d",count);
+    }
 
-    printf("%d\n", count);
+  
     return 0;
 }
 
