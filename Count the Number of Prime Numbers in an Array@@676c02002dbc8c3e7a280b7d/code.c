@@ -2,7 +2,7 @@
 
 int main() {
     int n;
-    int count=0;
+    int count = 0;
     scanf("%d", &n);
 
     int arr[n];
@@ -10,14 +10,14 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-      // Last element of the array
-
+    // Count how many numbers from 1 to n-1 divide n exactly
     for(int i = 1; i < n; i++) {   
-        if(n%i==0){
-            count ++;
+        if(n % i == 0){
+            count++;
         }
     }
-    printf("%d",count);
 
+    printf("%d\n", count);
     return 0;
 }
+
