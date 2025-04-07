@@ -23,7 +23,7 @@ int main(){
         int tmp = arr[i];
         if (arr[i]==tmp){
             printf("Sorted");
-            
+            return 0;
         }
         else{
             printf("Not Sorted");
