@@ -12,12 +12,12 @@ int main(){
        temp = arr[i];
     }
      for(int i=0; i<n; i++){
-        if(arr[i] == temp){
-            printf("YES");
-            break;
+        if(arr[i] != temp){
+            printf("NO");
+            return 0;
         }
         else{
-            printf("NO");  
+            printf("YES");  
              
         }
     }
