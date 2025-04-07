@@ -19,9 +19,7 @@ int main(){
         if (max2<arr[i] && max>arr[i]){
             max2 = arr[i]; 
         }
-        else{
-            printf("%d",-1);
-        }
+        
     }
     printf("%d",max2);
     
