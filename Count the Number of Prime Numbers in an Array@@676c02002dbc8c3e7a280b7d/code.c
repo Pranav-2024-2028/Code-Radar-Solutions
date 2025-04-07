@@ -12,13 +12,14 @@ int main() {
 
     // Count how many numbers from 1 to n-1 divide n exactly
     for(int i = 1; i < n; i++) {   
-        if(n % i == 0){
+        if(n % i == 0 ){
             count++;
+            printf("%d",count);
         }
     }
-    if (count ==2){
-        printf("%d",count);
-    }
+    // if (count ==2){
+    //     printf("%d",count);
+    // }
 
   
     return 0;
