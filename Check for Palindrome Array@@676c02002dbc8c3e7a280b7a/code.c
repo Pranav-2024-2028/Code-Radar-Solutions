@@ -14,7 +14,7 @@ int main(){
      for(int i=0; i<n; i++){
         if(arr[i] == temp){
             printf("YES");
-            return 0;
+            
         }
         else{
             printf("NO");  
