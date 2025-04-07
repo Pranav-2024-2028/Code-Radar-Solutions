@@ -13,7 +13,7 @@ int main() {
       // Last element of the array
 
     for(int i = 0; i < n; i++) {   
-        if(arr[n]%i==0){
+        if(n%i==0){
             count ++;
         }
     }
