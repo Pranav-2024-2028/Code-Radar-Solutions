@@ -18,8 +18,9 @@ int main(){
             }
         }
     }
-    int tmp = arr[i];
+
     for(int i =0;i<n;i++){
+        int tmp = arr[i];
         if (arr[i]==tmp){
             printf("Sorted");
         }
