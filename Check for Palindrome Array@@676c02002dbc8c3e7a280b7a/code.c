@@ -8,6 +8,15 @@ int main(){
     }
 
     for(int i=n-1; i>=0; i--){
-        printf("%d",arr[i]);
+       int temp = arr[i];
     }
+     for(int i=0; i<n; i++){
+        if(arr[i] == temp){
+            printf("YES");
+        }
+        else{
+            printf("NO");   
+        }
+    }
+
 }
