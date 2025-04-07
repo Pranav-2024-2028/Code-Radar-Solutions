@@ -9,9 +9,9 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    int target = arr[n - 1];  // Last element of the array
+      // Last element of the array
 
-    for(int i = 1; i <= target; i++) {  // Start from 1 to avoid division by 0
+    for(int i = 1; i <= n; i++) {  // Start from 1 to avoid division by 0
         if (target % i == 0) {
             printf("%d\n", i);
             return 0;
