@@ -11,9 +11,7 @@ int main(){
     for(int i=n-1; i>=0; i--){
        temp = arr[i];
     }
-    if (n==1){
-        printf("YES");
-    }
+    
      for(int i=0; i<n; i++){
         if(arr[i] != temp){
             printf("NO");
