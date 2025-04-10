@@ -10,7 +10,7 @@ int main(){
     int length = strlen(arr)-1;
 
     for(int i=length; i>=0; i--){
-        printf("%d",arr[i]);
+        printf("%s",arr[i]);
     }
 
     
