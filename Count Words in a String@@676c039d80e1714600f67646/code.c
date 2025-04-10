@@ -10,7 +10,7 @@ int main() {
     int count = 0 ; 
 
     for(int i=0; i<length; i++){
-        if (str[i] == ' ' && str[i + 1] != ' ' && str[i + 1] != '\0'){
+        if (str[i] == ' ' && str[i + 1] != ' ' ){
             count ++;
         }
     }
