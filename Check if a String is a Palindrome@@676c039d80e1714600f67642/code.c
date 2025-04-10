@@ -3,7 +3,7 @@
 int main(){
     char arr[1000];
     char arr1[1000];
-    int temp = arr[i];
+    // int temp = arr[i];
 
     fgets(arr, sizeof(arr),stdin);
 
