@@ -13,7 +13,7 @@ int main(){
 
     if (length1 != length2){
         printf("No");
-        return 0;
+        
     }
     for (int i = 0; i < 26; i++) {
         if (freq1[i] != freq2[i]) {
