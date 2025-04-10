@@ -20,11 +20,11 @@ int main(){
         arr1[i] = arr[i];
     }
     
-    for(int j=length2; j>=0; j--){
-        arr2[j] = arr[j];
+    for(int i=length2; i>=0; i--){
+        arr2[i] = arr[i];
     }
 
-    if (arr1[i]==arr2[j])
+    if (arr1[i]==arr2[i])
 {
 printf("Yes");
 }
