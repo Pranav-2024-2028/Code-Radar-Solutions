@@ -4,7 +4,7 @@
 int main() {
     char str[100];
 
-    printf("Enter a string: ");
+  
     fgets(str, sizeof(str), stdin);
 
     // Remove newline character if present
