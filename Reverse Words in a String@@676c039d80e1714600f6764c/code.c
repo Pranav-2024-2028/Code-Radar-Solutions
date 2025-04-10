@@ -7,7 +7,7 @@ int main(){
     fgets(arr, sizeof(arr), stdin);
 
     int len = strlen(arr)-1;
-    for(int i=length; i>=0; i--){
+    for(int i=len; i>=0; i--){
         printf("%c",arr[i]);
     }
 }
