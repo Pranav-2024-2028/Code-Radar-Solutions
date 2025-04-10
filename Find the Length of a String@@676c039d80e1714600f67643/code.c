@@ -13,8 +13,9 @@ int main(){
     if (length ==' '){
         printf("%d",0);
     }
+    else{
 
     printf("%d",length);
-
+    }
     return 0;
 }
