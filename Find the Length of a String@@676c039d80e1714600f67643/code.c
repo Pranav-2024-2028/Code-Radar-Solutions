@@ -10,6 +10,10 @@ int main(){
 
     int length = strlen(arr);
 
+    if (length ==' '){
+        printf("%d",0);
+    }
+
     printf("%d",length);
 
     return 0;
