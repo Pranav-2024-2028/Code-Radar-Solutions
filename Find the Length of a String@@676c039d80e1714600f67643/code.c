@@ -1,21 +1,16 @@
-// Your code here...
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
 
-
-int main(){
+int main() {
     char arr[1000];
+    int length = 0;
 
-    fgets(arr, sizeof(arr),stdin);
+    fgets(arr, sizeof(arr), stdin);
 
-    int length = strlen(arr);
-
-    if (length == ' '){
-        printf("%d",0);
+    // Count characters manually until newline or null terminator
+    for (int i = 0; arr[i] != '\0' && arr[i] != '\n'; i++) {
+        length++;
     }
-    
-    else{
-    printf("%d",length);
-    }
+
+    printf("%d", length);
     return 0;
 }
