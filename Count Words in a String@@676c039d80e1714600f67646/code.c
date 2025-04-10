@@ -6,11 +6,11 @@ int main() {
 
    
     fgets(str,sizeof(str),stdin); 
-    int length = strlen(str);  
+    int length = strlen(str)-1;  
     int count = 0 ; 
 
     for(int i=0; i<length; i++){
-        if (str[i] == ' ' && str[i + 1] != ' ' ){
+        if (str[i] == ' ' && str[i + 1] != ' ' && str[i + 1] != '\0'){
             count ++;
         }
     }
