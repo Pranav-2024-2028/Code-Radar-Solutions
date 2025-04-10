@@ -8,11 +8,9 @@ int main(){
 
     fgets(arr, sizeof(arr),stdin);
 
-    int length = strleb(arr)-1;
+    int length = strlen(arr)-1;
 
     printf("%d",length);
-
-
 
     return 0;
 }
