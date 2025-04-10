@@ -24,7 +24,7 @@ int main(){
         arr2[j] = arr[j];
     }
 
-    if (arr1[i]==arr22[j])
+    if (arr1[i]==arr2[j])
 {
 printf("Yes");
 }
