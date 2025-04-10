@@ -8,8 +8,8 @@ int main(){
     fgets(arr1, sizeof(arr1),stdin);
     fgets(arr2, sizeof(arr2),stdin);
 
-    int length1 = strlen(arr1)  ;
-    int length2 = strlen(arr2)  ;
+    int length1 = strlen(arr1)-1  ;
+    int length2 = strlen(arr2)-1 ;
 
     if (length1 != length2){
         printf("No\n");
