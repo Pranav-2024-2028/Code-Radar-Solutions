@@ -22,7 +22,7 @@ int main() {
         }
     }
 
-    printf("Number of words: %d\n", count);
+    printf("%d", count);
     return 0;
 }
 
