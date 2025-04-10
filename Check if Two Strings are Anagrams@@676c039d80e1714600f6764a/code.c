@@ -12,17 +12,17 @@ int main(){
     int length2 = strlen(arr2)-1 ;
 
     if (length1 != length2){
-        printf("No\n");
+        printf("No");
         return 0;
     }
     for (int i = 0; i < 26; i++) {
         if (freq1[i] != freq2[i]) {
-            printf("No\n");
+            printf("No");
             return 0;
         }
     }
 
-    printf("Yes\n");
+    printf("Yes");
     return 0;
 }
     
