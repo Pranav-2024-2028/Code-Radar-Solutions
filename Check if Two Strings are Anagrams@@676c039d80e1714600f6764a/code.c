@@ -4,7 +4,7 @@
 int main(){
     char arr1[1000];
     char arr2[1000];
-    int freq1[26] = {0}, freq2[26] = {0};
+    int freq1[25] = {0}, freq2[25] = {0};
     fgets(arr1, sizeof(arr1),stdin);
     fgets(arr2, sizeof(arr2),stdin);
 
@@ -15,7 +15,7 @@ int main(){
         printf("No\n");
         return 0;
     }
-    for (int i = 0; i < 26; i++) {
+    for (int i = 0; i < 25; i++) {
         if (freq1[i] != freq2[i]) {
             printf("Yes\n");
             return 0;
