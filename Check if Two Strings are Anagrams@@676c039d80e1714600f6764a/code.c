@@ -17,7 +17,7 @@ int main(){
     }
     for (int i = 0; i < 26; i++) {
         if (freq1[i] != freq2[i]) {
-            printf("Yes\n");
+            printf("No\n");
             return 0;
         }
     }
