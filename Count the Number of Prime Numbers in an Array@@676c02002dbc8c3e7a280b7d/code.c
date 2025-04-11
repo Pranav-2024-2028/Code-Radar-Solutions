@@ -12,7 +12,7 @@ int main() {
     }
 
     for (i = 0; i < n; i++) {
-        if (arr[i] < 1)
+        if (arr[i] <= 1)
             continue;
 
         flag = 1;
