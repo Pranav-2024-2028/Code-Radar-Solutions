@@ -13,7 +13,7 @@ int main() {
     // Concatenate str2 to str1
     strcat(str1, str2);
 
-    printf(" %s", str1);
+    printf("%s", str1);
 
     return 0;
 }
