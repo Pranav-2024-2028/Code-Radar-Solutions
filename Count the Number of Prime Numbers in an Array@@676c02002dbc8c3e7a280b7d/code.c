@@ -13,7 +13,7 @@ int main() {
 
    
 
-        flag = 1;
+        
         for (j = 2; j * j <= arr[i]; j++) {
             if (arr[i] % j == 0) {
                 flag = 0;
