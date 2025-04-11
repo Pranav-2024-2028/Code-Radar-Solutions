@@ -14,6 +14,7 @@ int main() {
     for(int i = 1; i < n; i++) {   
         if(arr[i] % i == 0 ){
             count++;
+            return 0;
             
         }
     }
