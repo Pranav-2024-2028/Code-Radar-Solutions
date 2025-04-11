@@ -9,17 +9,18 @@ int main(){
     int length = strlen(arr)-1;
     int length2 = strlen(arr2)-1;
 
-    for(int i =0; i<length2; i++){
-        int temp = arr[i];
+    int temp ;
+    for(int i=0; i<length; i++){
+        temp = arr[i];
     }
-    
-    for(int i=length; i>=0; i--){
-        arr[i] = arr[2];
+
+    for(int i=length2; i>=0; i--){
+        arr2[i] = arr[i];
     }
     
 
     for(int i=0; i<length; i++){
-        if (arr[i] == temp){
+        if (temp == arr[i]){
             printf("Yes");
             return 0;
         }
