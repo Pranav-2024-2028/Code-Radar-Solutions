@@ -11,9 +11,7 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    for (i = 0; i < n; i++) {
-        if (arr[i] <= 1)
-            continue;
+   
 
         flag = 1;
         for (j = 2; j * j <= arr[i]; j++) {
@@ -21,7 +19,7 @@ int main() {
                 flag = 0;
                 break;
             }
-        }
+        
         if (flag == 1)
             count++;
     }
