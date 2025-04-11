@@ -1,28 +1,33 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main() {
-    int n;
-    int count = 0;
+    int n, i, j, count = 0, flag;
+    
     scanf("%d", &n);
 
     int arr[n];
-    for(int i = 0; i < n; i++) {
+    
+    for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
-    // Count how many numbers from 1 to n-1 divide n exactly
-    for(int i = 1; i < n; i++) {   
-        if(arr[i] % i == 0 ){
-            count++;
-            return 0;
-            
-        }
-    }
-    // if (count ==2){
-        printf("%d",count);
-    // }
+    for (i = 0; i < n; i++) {
+        if (arr[i] <= 1)
+            continue;
 
-  
+        flag = 1;
+        for (j = 2; j * j <= arr[i]; j++) {
+            if (arr[i] % j == 0) {
+                flag = 0;
+                break;
+            }
+        }
+        if (flag == 1)
+            count++;
+    }
+
+    printf("%d", count);
     return 0;
 }
+
 
