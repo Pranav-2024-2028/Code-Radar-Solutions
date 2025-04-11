@@ -10,7 +10,7 @@ int main(){
     int length2 = strlen(arr2)-1;
 
     for(int i =0; i<length2; i++){
-        arr2[i] = arr[i];
+        int temp = arr[i];
     }
     
     for(int i=length; i>=0; i--){
@@ -19,7 +19,7 @@ int main(){
     
 
     for(int i=0; i<length; i++){
-        if (arr[i] == arr2[i]){
+        if (arr[i] == temp){
             printf("Yes");
             return 0;
         }
